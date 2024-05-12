@@ -2,111 +2,100 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="w-full">
+      <div className="w-full bg-blue-800 p-10">
+        <h1 className="text-white text-3xl py-3">FishMaster</h1>
+        <h3 className="text-white text-xl">Privacy Policy</h3>
+      </div>
+      <div className="m-4 border border-gray-400 ">
+        <div className="p-8 space-y-3">
+          <p className="font-bold text-xl">Introduction</p>
+          <p>
+            Fishmaster operates the Fishmaster Application platform, which
+            provides the SERVICE.
+          </p>
+          <p>
+            This page is used to inform platform visitors regarding our policies
+            with the collection, use, and disclosure of Personal Information if
+            anyone decided to use our Service, the Fishmaster application
+          </p>
+          <p>
+            If you choose to use our Service, then you agree to the collection
+            and use of information in relation with this policy. The Personal
+            Information that we collect are used for providing and improving the
+            Service. We will not use or share your information with anyone
+            except as described in this Privacy Policy.
+          </p>
         </div>
-      </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
+        <div className="p-8 space-y-3">
+          <p className="font-bold text-xl">Information collection and use</p>
+          <p>
+            For a better experience while using our Service, we may require you
+            to provide us with certain personally identifiable information,
+            including but not limited to your name, email address, phone number,
+            and location. The information that we collect will be used to
+            contact or identify you.
           </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+          <p>
+            We want to inform you that whenever you visit our Service, we
+            collect information that your device sends to us that is called Log
+            Data. This Log Data may include information such as your computer's
+            Internet Protocol ("IP") address, browser version, pages of our
+            Service that you visit, the time and date of your visit, the time
+            spent on those pages, and other statistics.
           </p>
-        </a>
+        </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
+        <div className="p-8 space-y-3">
+          <p className="font-bold text-xl">Service Providers</p>
+          <p>
+            We may employ third-party companies and individuals due to the
+            following reasons:
           </p>
-        </a>
+          <ul>
+            <li>To facilitate our Service;</li>
+            <li>To provide the Service on our behalf;</li>
+            <li>To perform Service-related services; or </li>
+            <li>To assist us in analyzing how our Service is used.</li>
+          </ul>
+          <p>
+            We want to inform our Service users that these third parties have
+            access to your Personal Information. The reason is to perform the
+            tasks assigned to them on our behalf. However, they are obligated
+            not to disclose or use the information for any other purpose.
+          </p>
+        </div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+        <div className="p-8 space-y-3">
+          <p className="font-bold text-xl">Security</p>
+          <p>
+            We value your trust in providing us your Personal Information, thus
+            we are striving to use commercially acceptable means of protecting
+            it. But remember that no method of transmission over the internet,
+            or method of electronic storage is 100% secure and reliable, and we
+            cannot guarantee its absolute security.
           </p>
-        </a>
+        </div>
+
+        <div className="p-8 space-y-3">
+          <p className="font-bold text-xl">Change to this Privacy Policy</p>
+          <p>
+            We may update our Privacy Policy from time to time. Thus, we advise
+            you to review this page periodically for any changes. We will notify
+            you of any changes by posting the new Privacy Policy on this page.
+            These changes are effective immediately, after they are posted on
+            this page.
+          </p>
+        </div>
+
+        <div className="p-8 space-y-3">
+          <p className="font-bold text-xl">Contact Us</p>
+          <p>
+            If you have any questions or suggestions about our Privacy Policy,
+            do not hesitate to contact us at oofishmaster@gmail.com
+          </p>
+        </div>
       </div>
     </main>
   );
