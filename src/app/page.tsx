@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="w-full">
       <div className="w-full bg-blue-800 p-10">
-        <h1 className="text-white text-3xl py-3">FishMaster</h1>
+        <h1 className="text-white text-3xl py-3">Fishmaster</h1>
         <h3 className="text-white text-xl">Privacy Policy</h3>
       </div>
       <div className="m-4 border border-gray-400 ">
