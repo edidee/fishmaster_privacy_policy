@@ -17,7 +17,7 @@ export default function Home() {
           <p>
             This page is used to inform platform visitors regarding our policies
             with the collection, use, and disclosure of Personal Information if
-            anyone decided to use our Service, the Fishmaster application
+            anyone decided to use our Service, the Fishmaster application.
           </p>
           <p>
             If you choose to use our Service, then you agree to the collection
